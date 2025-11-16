@@ -1,5 +1,3 @@
-<i<img width="1024" height="1536" alt="ChatGPT Image Nov 16, 2025, 04_37_46 PM" src="https://github.com/user-attachments/assets/62acd8b3-0a91-4c4d-8999-4aeae4417d0b" />
-mg width="1884" height="912" alt="Ekran görüntüsü 2025-11-16 163853" src="https://github.com/user-attachments/assets/8e465fea-5dbb-4cbd-afe2-fce4095a5b16" />
-Kuduko Müzik Yapım - Asistan Al
+<img width="1024" height="1536" alt="ChatGPT Image Nov 16, 2025, 04_37_46 PM" src="https://github.com/user-attachments/assets/f0f9ef40-6cc3-4396-a8fb-3b94c99bc96d" />
+<img width="1884" height="912" alt="Ekran görüntüsü 2025-11-16 163853" src="https://github.com/user-attachments/assets/ac91df12-c8b6-4ecd-b661-180485339933" />
 Kuduko Müzik Yapım - Asistan Al Yapay Zeka Veri Tabanı Kullanıyor kuduko Yaz Aktif Olur Bilgisiyarınıza Dosyayı İndirmeniz Gerekiyor Dosyayı Açmanız İçin Mouse Sağ Tuşuna Bastığınızda Note Defteri Düzenleme Seçeneğine Tıklamanız Gerekiyor Tıkladığınızda Karşınızda Note Defteri Açılacak oradaki Tüm Yazılan Yazıları Kopyalamanız Gerekiyor Kopyaladığınızda Bilgisayarınızda Terminal Powershell Programını Açmanız Gerekiyor Açtığınızda Bilgisayarınıza Kopyaladığınız Yazıyı Terminal Powershell 'e Yapıştırınız  Yeni Güncellendi Artık Daha Fazla Akıllı Yeni Kişisel Arkadaşlık Sohbet Botunuz Her Yere Gittiğinizde Kuduko Müzik Yapım - Asistan Al Size Yardım edecektir
-
