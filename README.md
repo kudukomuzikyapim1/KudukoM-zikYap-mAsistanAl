@@ -1,5 +1,5 @@
-<img width="606" height="608" alt="Ekran görüntüsü 2025-11-30 223245" src="https://github.com/user-attachments/assets/69dfa922-6afe-4d3f-8e17-2c0393b816c9" />
-<img width="1905" height="916" alt="Ekran görüntüsü 2025-11-30 222318" src="https://github.com/user-attachments/assets/7b53ff90-e2c2-403d-8e83-62b4aab97dbe" />
-<img width="1901" height="916" alt="Ekran görüntüsü 2025-11-30 222405" src="https://github.com/user-attachments/assets/fab447ff-beca-4233-a19b-8a7f13aea6ae" />
-<img width="608" height="602" alt="Ekran görüntüsü 2025-11-30 223300" src="https://github.com/user-attachments/assets/ef6f2d28-d84b-4a8f-be6f-ff0abe1ba030" />
+<img width="608" height="607" alt="Ekran görüntüsü 2025-12-01 143817" src="https://github.com/user-attachments/assets/bab9476a-7bd1-4de7-ad36-ce70e2c869fa" />
+<img width="608" height="603" alt="Ekran görüntüsü 2025-12-01 143829" src="https://github.com/user-attachments/assets/77b4edef-5603-493e-ba7a-5d94f0d137ec" />
+<img width="1902" height="920" alt="Ekran görüntüsü 2025-12-01 143600" src="https://github.com/user-attachments/assets/9fb1a1ae-7043-4795-a45f-dfd86f6878fd" />
+<img width="615" height="604" alt="Ekran görüntüsü 2025-12-01 143841" src="https://github.com/user-attachments/assets/e8ccc4d7-26d7-42a3-a1c2-9bd6a5675ae8" />
 Kuduko Müzik Yapım - Asistan Al Yapay Zeka Veri Tabanı Kullanıyor kuduko Yaz Aktif Olur Bilgisiyarınıza Dosyayı İndirmeniz Gerekiyor Dosyayı Açmanız İçin Mouse Sağ Tuşuna Bastığınızda Note Defteri Düzenleme Seçeneğine Tıklamanız Gerekiyor Tıkladığınızda Karşınızda Note Defteri Açılacak oradaki Tüm Yazılan Yazıları Kopyalamanız Gerekiyor Kopyaladığınızda Bilgisayarınızda Terminal Powershell Programını Açmanız Gerekiyor Açtığınızda Bilgisayarınıza Kopyaladığınız Yazıyı Terminal Powershell 'e Yapıştırınız  Yeni Güncellendi Artık Daha Fazla Akıllı Yeni Kişisel Arkadaşlık Sohbet Botunuz Her Yere Gittiğinizde Kuduko Müzik Yapım - Asistan Al Size Yardım edecektir
