@@ -1,5 +1,5 @@
 <img width="608" height="607" alt="Ekran görüntüsü 2025-12-01 143817" src="https://github.com/user-attachments/assets/bab9476a-7bd1-4de7-ad36-ce70e2c869fa" />
-<img width="1897" height="906" alt="1" src="https://github.com/user-attachments/assets/56583931-2bfc-4a9a-994f-47849eca52f1" />
+<img width="1884" height="905" alt="Ekran görüntüsü 2025-12-18 092045" src="https://github.com/user-attachments/assets/ae8320de-30ea-4240-88bc-b5d7ab9b551f" />
 <img width="1890" height="908" alt="Ekran görüntüsü 2025-12-04 151954" src="https://github.com/user-attachments/assets/5012c43b-feaa-40c6-b5de-df9abba42779" />
 <img width="1895" height="906" alt="2" src="https://github.com/user-attachments/assets/825a5e8d-af56-499d-9784-5cedbe1160ba" />
 <img width="603" height="598" alt="Ekran görüntüsü 2025-12-04 151244" src="https://github.com/user-attachments/assets/a0b8c7a1-2443-4355-8410-3da9822c8fd4" />
