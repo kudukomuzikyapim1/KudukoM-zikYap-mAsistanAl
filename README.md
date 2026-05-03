@@ -56,84 +56,147 @@
 git clone https://github.com/kudukomuzikyapim1/kuduko-muzik-yapim-asistan-al.git
 cd kuduko-muzik-yapim-asistan-al
 pip install -r requirements.txt
-python assistant.py                                                                                                                                              📦 Kurulum
+python assistant.py                                                                                                                                                                                                                                                                                                                 # 🤖 Asistan Projesi
+## 📦 Kurulum
 
-Gereksinimler:
+### Gereksinimler:
 
-Python 3.8+
-Windows 10 / 11
+* Python 3.8+
+* Windows 10 / 11
+
+### Kurulum:
+
+```bash
 pip install SpeechRecognition pyttsx3 opencv-python pillow psutil pygetwindow pyautogui
-🎮 Kullanım
+```
 
-Temel komutlar:
+---
 
-merhaba
-saat kaç
-tarih
-nasılsın
-güle güle
-🎭 Asistan Profilleri
-Profil	Stil
-🎩 Klasik	Resmi
-😊 Arkadaşça	Samimi
-😏 Alaycı	Eğlenceli
-💼 Profesyonel	İş
-🎮 Rahat	Casual
-📷 Kamera
-kamera aç
-kamera kapat
-fotoğraf çek
-galeri
-🎵 Medya
-müzik başlat
-müzik duraklat
-sonraki şarkı
-ses aç
-🌐 Ağ
-wifi aç
-wifi kapat
-bluetooth aç
-bluetooth kapat
-💾 Hafıza
+## 🎮 Kullanım
 
-Veriler JSON dosyalarında tutulur:
+### Temel Komutlar:
 
-memory.json
-assistant_profile.json
-whatsapp_contacts.json
-⌨️ Komut Listesi
+* merhaba
+* saat kaç
+* tarih
+* nasılsın
+* güle güle
+
+---
+
+## 🎭 Asistan Profilleri
+
+| Profil         | Stil      |
+| -------------- | --------- |
+| 🎩 Klasik      | Resmi     |
+| 😊 Arkadaşça   | Samimi    |
+| 😏 Alaycı      | Eğlenceli |
+| 💼 Profesyonel | İş        |
+| 🎮 Rahat       | Casual    |
+
+---
+
+## 📷 Kamera Komutları
+
+* kamera aç
+* kamera kapat
+* fotoğraf çek
+* galeri
+
+---
+
+## 🎵 Medya Komutları
+
+* müzik başlat
+* müzik duraklat
+* sonraki şarkı
+* ses aç
+
+---
+
+## 🌐 Ağ Komutları
+
+* wifi aç
+* wifi kapat
+* bluetooth aç
+* bluetooth kapat
+
+---
+
+## 💾 Hafıza
+
+Veriler aşağıdaki JSON dosyalarında tutulur:
+
+* `memory.json`
+* `assistant_profile.json`
+* `whatsapp_contacts.json`
+
+---
+
+## ⌨️ Komut Listesi
 
 Detaylı komutlar için:
 
-komutlar.txt dosyasına bakın
-🔧 Sorun Giderme
+```
+komutlar.txt
+```
 
-ModuleNotFoundError:
+dosyasına bakın.
 
+---
+
+## 🔧 Sorun Giderme
+
+### ModuleNotFoundError:
+
+```bash
 pip install -r requirements.txt
+```
 
-Kamera hatası:
+### Kamera Hatası:
 
+```bash
 pip install opencv-python
-📁 Dosya Yapısı
+```
+
+---
+
+## 📁 Dosya Yapısı
+
+```
 assistant.py
 requirements.txt
 README.md
 memory.json
-🤝 Katkıda Bulunma
-Fork
-Branch oluştur
-Commit
-Pull Request
-📞 İletişim
-GitHub: https://github.com/kudukomuzikyapim1
-Web: https://kudukomuzikyapimasistanal.42web.io
-📜 Lisans
+```
+
+---
+
+## 🤝 Katkıda Bulunma
+
+1. Fork yap
+2. Branch oluştur
+3. Commit at
+4. Pull Request gönder
+
+---
+
+## 📞 İletişim
+
+* GitHub: https://github.com/kudukomuzikyapim1
+* Web: https://kudukomuzikyapimasistanal.42web.io
+
+---
+
+## 📜 Lisans
 
 MIT License © 2026
 
+---
+
 <div align="center">
 
-⭐ Destek olmak için yıldız ver!
+⭐ Destek olmak için projeye yıldız vermeyi unutma!
 
-</div> ```
+</div>
+
