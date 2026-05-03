@@ -197,8 +197,8 @@ assistant_memory.json
 
 ## 📞 İletişim
 
-- GitHub: [https://github.com/kudukomuzikyapim1](https://github.com/kudukomuzikyapim1)
-- Web: [https://kudukomuzikyapimasistanal.42web.io](https://kudukomuzikyapimasistanal.42web.io)
+- GitHub: [https://github.com/kudukomuzikyapim1](https://github.com/kudukomuzikyapim1) - Dökümantasyon: [https://docs.python.org/3/](https://docs.python.org/3)
+- Asistan Al: [https://kudukomuzikyapimasistanal.42web.io](https://kudukomuzikyapimasistanal.42web.io)
 
 ---
 
