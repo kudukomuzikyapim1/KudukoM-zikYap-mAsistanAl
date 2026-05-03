@@ -169,9 +169,7 @@ Komutlar.txt
 README.md
 memory.json
 assistant_memory.json                                                                                                                                             ```
-
 ---
-
 ## 🤝 Katkıda Bulunma
 
 1. Fork yap
