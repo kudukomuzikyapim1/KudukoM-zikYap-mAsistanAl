@@ -130,7 +130,7 @@ Veriler aşağıdaki JSON dosyalarında tutulur:
 * `memory.json`
 * `assistant_profile.json`
 * `whatsapp_contacts.json`
-
+---
 ---
 
 ## ⌨️ Komut Listesi
