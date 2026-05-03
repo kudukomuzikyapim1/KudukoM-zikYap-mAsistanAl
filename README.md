@@ -162,14 +162,30 @@ pip install opencv-python
 ---
 
 ## 📁 Dosya Yapısı
-
-```
 kudukomuzikyapimasistanal.py
 Komutlar.txt
 README.md
 memory.json
-assistant_memory.json                                                                                                                                             ```
+assistant_memory.json
+
+
 ---
+
+## 🚀 Başlangıç
+
+1. Projeyi klonlayın veya ZIP olarak indirin.
+2. Gerekli bağımlılıkları yükleyin (varsa).
+3. `kudukomuzikyapimasistanal.py` dosyasını çalıştırın.
+
+---
+
+## 📖 Kullanım
+
+- `Komutlar.txt` içinde mevcut komutları inceleyebilirsiniz.
+- Bellek dosyaları (`memory.json`, `assistant_memory.json`) otomatik olarak oluşturulur ve yönetilir.
+
+---
+
 ## 🤝 Katkıda Bulunma
 
 1. Fork yap
@@ -181,8 +197,8 @@ assistant_memory.json                                                           
 
 ## 📞 İletişim
 
-* GitHub: https://github.com/kudukomuzikyapim1
-* Web: https://kudukomuzikyapimasistanal.42web.io
+- GitHub: [https://github.com/kudukomuzikyapim1](https://github.com/kudukomuzikyapim1)
+- Web: [https://kudukomuzikyapimasistanal.42web.io](https://kudukomuzikyapimasistanal.42web.io)
 
 ---
 
@@ -197,4 +213,3 @@ MIT License © 2026
 ⭐ Destek olmak için projeye yıldız vermeyi unutma!
 
 </div>
-
