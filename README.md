@@ -109,8 +109,8 @@ pip install SpeechRecognition pyttsx3 opencv-python pillow psutil pygetwindow py
 
 * Fotoğraf galerisi
 
-* Kamera bilgisi                                                                                                                                                   ---
-
+* Kamera bilgisi                                                                                                                                                  
+---
 🎵 Müzik Kontrol
 * müzik başlat
 
