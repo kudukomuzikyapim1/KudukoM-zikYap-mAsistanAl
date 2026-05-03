@@ -164,11 +164,11 @@ pip install opencv-python
 ## 📁 Dosya Yapısı
 
 ```
-assistant.py
-requirements.txt
+kudukomuzikyapimasistanal.py
+Komutlar.txt
 README.md
 memory.json
-```
+assistant_memory.json                                                                                                                                             ```
 
 ---
 
