@@ -55,8 +55,8 @@
 ```bash
 git clone https://github.com/kudukomuzikyapim1/kuduko-muzik-yapim-asistan-al.git
 cd kuduko-muzik-yapim-asistan-al
-pip install -r requirements.txt
-python assistant.py                                                                                                                                                                                                                                                                                                                 # 🤖 Asistan Projesi
+pip install -r Komutlar.txt
+python kudukomuzikyapimasistanal.py                                                                                                                                                                                                                                                                                                 # 🤖 Asistan Projesi
 ## 📦 Kurulum
 
 ### Gereksinimler:
