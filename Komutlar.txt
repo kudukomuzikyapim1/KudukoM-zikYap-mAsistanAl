@@ -1,247 +1,297 @@
-📘 KUDUKO MUZİK YAPİM ASİSTAN AL v2.0 - DOKÜMANTASYON
-📑 İÇİNDEKİLER
-Genel Bakış
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                    KUDUKO MUZİK YAPİM ASİSTAN AL - KOMUT LİSTESİ                   ║
+║                                    Sürüm 2.0                                       ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
 
-Kurulum ve Gereksinimler
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 1. SİSTEM KOMUTLARI                                                              │
+├─────────────────────────────────────────────────────────────────────────────────┤
 
-Ana Özellikler
+KO0001 │ saat                    │ 🕐 Sistem saatini gösterir
+KO0002 │ saat kaç                │ 🕐 Saat bilgisini verir
+KO0003 │ zaman                   │ 🕐 Güncel zamanı söyler
+KO0004 │ tarih                   │ 📅 Bugünün tarihini gösterir
+KO0005 │ bugün                   │ 📅 Günün tarihini söyler
+KO0006 │ gün                     │ 📅 Gün bilgisini verir
+KO0007 │ nasılsın                │ 🤖 Asistanın durumunu sorar
+KO0008 │ durum                   │ 🤖 Sistem durumunu bildirir
+KO0009 │ nasıl gidiyor           │ 🤖 Asistanın genel durumunu sorgular
+KO0010 │ merhaba                 │ 👋 Selamlaşma komutu
+KO0011 │ selam                   │ 👋 Selamlaşma komutu
+KO0012 │ hey                     │ 👋 Selamlaşma komutu
+KO0013 │ naber                   │ 👋 Samimi selamlaşma
+KO0014 │ hello                   │ 👋 İngilizce selamlaşma
+KO0015 │ hi                      │ 👋 Kısa selamlaşma
+KO0016 │ teşekkür                │ 🙏 Teşekkür etme
+KO0017 │ sağ ol                  │ 🙏 Teşekkür etme
+KO0018 │ sağol                   │ 🙏 Teşekkür etme
+KO0019 │ güle güle               │ 👋 Vedalaşma
+KO0020 │ görüşürüz               │ 👋 Vedalaşma
+KO0021 │ bay bay                 │ 👋 Vedalaşma
 
-Kamera Kontrol Sistemi
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 2. KAMERA KOMUTLARI                                                              │
+├─────────────────────────────────────────────────────────────────────────────────┤
 
-Menü Sistemi
+KO0100 │ kamera aç               │ 📷 Kamera önizlemesini başlatır
+KO0101 │ kamerayı aç             │ 📷 Kamera önizlemesini başlatır
+KO0102 │ kamera kapat            │ 🔴 Kamerayı kapatır
+KO0103 │ kamerayı kapat          │ 🔴 Kamerayı kapatır
+KO0104 │ fotoğraf çek            │ 📸 Hızlı fotoğraf çeker
+KO0105 │ resim çek               │ 📸 Hızlı fotoğraf çeker
+KO0106 │ fotograf cek            │ 📸 Hızlı fotoğraf çeker
+KO0107 │ foto cek                │ 📸 Kısa fotoğraf komutu
+KO0108 │ fotograf çek            │ 📸 Hızlı fotoğraf çeker
+KO0109 │ galeri                  │ 🖼️ Fotoğraf galerisini açar
+KO0110 │ galeriyi aç             │ 🖼️ Fotoğraf galerisini açar
+KO0111 │ fotoğraflar             │ 🖼️ Fotoğraf galerisini açar
 
-Asistan Profilleri
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 3. MÜZİK KONTROL KOMUTLARI                                                       │
+├─────────────────────────────────────────────────────────────────────────────────┤
 
-Medya Kontrolü
+KO0200 │ müzik başlat            │ ▶️ Müzik çalmaya başlar
+KO0201 │ müzik başlat            │ ▶️ Müzik çalmaya başlar
+KO0202 │ müzik durdur            │ ⏹️ Müziği durdurur
+KO0203 │ müzik stop              │ ⏹️ Müziği durdurur
+KO0204 │ müzik duraklat          │ ⏸️ Müziği duraklatır
+KO0205 │ müzik devam et          │ ▶️ Durdurulan müziği devam ettirir
+KO0206 │ sonraki şarkı           │ ⏭️ Sonraki parçaya geçer
+KO0207 │ önceki şarkı            │ ⏮️ Önceki parçaya döner
+KO0208 │ şarkıyı baştan oynat    │ 🔄 Şarkıyı başa sarar
+KO0209 │ baştan                  │ 🔄 Şarkıyı başa sarar
+KO0210 │ başa sar                │ 🔄 Şarkıyı başa sarar
+KO0211 │ ses aç                  │ 🔊 Ses seviyesini artırır
+KO0212 │ ses kıs                 │ 🔉 Ses seviyesini azaltır
+KO0213 │ 10 saniye ileri         │ ⏩ 10 saniye ileri sarar
+KO0214 │ 10sn ileri              │ ⏩ 10 saniye ileri sarar
+KO0215 │ 10 saniye geri          │ ⏪ 10 saniye geri sarar
+KO0216 │ 10sn geri               │ ⏪ 10 saniye geri sarar
 
-Ağ Kontrolü
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 4. UYGULAMA KOMUTLARI                                                            │
+├─────────────────────────────────────────────────────────────────────────────────┤
 
-Windows Entegrasyonu
+KO0300 │ tüm uygulamalar         │ 📦 Yüklü tüm uygulamaları listeler
+KO0301 │ tum uygulamalar         │ 📦 Yüklü tüm uygulamaları listeler
+KO0302 │ yüklü uygulamalar       │ 📦 Yüklü uygulamaları listeler
+KO0303 │ yuklu uygulamalar       │ 📦 Yüklü uygulamaları listeler
+KO0304 │ notepad aç              │ 📝 Not Defteri'ni açar
+KO0305 │ hesap makinesi aç       │ 🧮 Hesap Makinesi'ni açar
+KO0306 │ calculator aç           │ 🧮 Hesap Makinesi'ni açar
+KO0307 │ cmd aç                  │ 💻 Komut İstemi'ni açar
+KO0308 │ komut istemi aç         │ 💻 Komut İstemi'ni açar
+KO0309 │ chrome aç               │ 🌐 Google Chrome'u açar
+KO0310 │ google chrome aç        │ 🌐 Google Chrome'u açar
+KO0311 │ firefox aç              │ 🌐 Firefox'u açar
+KO0312 │ edge aç                 │ 🌐 Microsoft Edge'i açar
+KO0313 │ microsoft edge aç       │ 🌐 Microsoft Edge'i açar
+KO0314 │ spotify aç              │ 🎵 Spotify'ı açar
+KO0315 │ paint aç                │ 🎨 Paint'i açar
+KO0316 │ word aç                 │ 📄 Microsoft Word'ü açar
+KO0317 │ excel aç                │ 📊 Microsoft Excel'i açar
+KO0318 │ powerpoint aç           │ 📽️ Microsoft PowerPoint'i açar
+KO0319 │ outlook aç              │ 📧 Outlook'u açar
+KO0320 │ whatsapp aç             │ 💬 WhatsApp'ı açar
+KO0321 │ telegram aç             │ 💬 Telegram'ı açar
+KO0322 │ discord aç              │ 🎮 Discord'u açar
+KO0323 │ slack aç                │ 💼 Slack'i açar
+KO0324 │ zoom aç                 │ 🎥 Zoom'u açar
+KO0325 │ teams aç                │ 👔 Microsoft Teams'i açar
+KO0326 │ visual studio code aç   │ 💻 VS Code'u açar
+KO0327 │ vscode aç               │ 💻 VS Code'u açar
+KO0328 │ pycharm aç              │ 🐍 PyCharm'ı açar
+KO0329 │ intellij aç             │ ☕ IntelliJ IDEA'yı açar
+KO0330 │ photoshop aç            │ 🎨 Photoshop'u açar
+KO0331 │ illustrator aç          │ 🎨 Illustrator'ü açar
+KO0332 │ premiere aç             │ 🎬 Premiere Pro'yu açar
+KO0333 │ steam aç                │ 🎮 Steam'i açar
+KO0334 │ epic games aç           │ 🎮 Epic Games Launcher'ı açar
+KO0335 │ netflix aç              │ 📺 Netflix'i açar
+KO0336 │ vlc aç                  │ 🎬 VLC Player'ı açar
+KO0337 │ snipping tool aç        │ ✂️ Ekran Alıntısı Aracı'nı açar
+KO0338 │ ekran alıntısı aç       │ ✂️ Ekran Alıntısı Aracı'nı açar
+KO0339 │ task manager aç         │ ⚙️ Görev Yöneticisi'ni açar
+KO0340 │ görev yöneticisi aç     │ ⚙️ Görev Yöneticisi'ni açar
+KO0341 │ control panel aç        │ 🖥️ Denetim Masası'nı açar
+KO0342 │ denetim masası aç       │ 🖥️ Denetim Masası'nı açar
+KO0343 │ device manager aç       │ 🔧 Aygıt Yöneticisi'ni açar
+KO0344 │ aygıt yöneticisi aç     │ 🔧 Aygıt Yöneticisi'ni açar
 
-Sistem Bileşenleri
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 5. AĞ KOMUTLARI                                                                  │
+├─────────────────────────────────────────────────────────────────────────────────┤
 
-Sesli Komutlar
+KO0400 │ wifi aç                 │ 📡 Wi-Fi bağlantısını açar
+KO0401 │ wi-fi aç                │ 📡 Wi-Fi bağlantısını açar
+KO0402 │ wifi yi aç              │ 📡 Wi-Fi bağlantısını açar
+KO0403 │ wifi kapat              │ 📡 Wi-Fi bağlantısını kapatır
+KO0404 │ wi-fi kapat             │ 📡 Wi-Fi bağlantısını kapatır
+KO0405 │ wifi yi kapat           │ 📡 Wi-Fi bağlantısını kapatır
+KO0406 │ wifi durumu             │ 📡 Wi-Fi durumunu sorgular
+KO0407 │ wi-fi durumu            │ 📡 Wi-Fi durumunu sorgular
+KO0408 │ bluetooth aç            │ 🔷 Bluetooth'u açar
+KO0409 │ bluetooth u aç          │ 🔷 Bluetooth'u açar
+KO0410 │ bt aç                   │ 🔷 Bluetooth'u açar
+KO0411 │ bluetooth kapat         │ 🔷 Bluetooth'u kapatır
+KO0412 │ bluetooth u kapat       │ 🔷 Bluetooth'u kapatır
+KO0413 │ bt kapat                │ 🔷 Bluetooth'u kapatır
+KO0414 │ bluetooth durumu        │ 🔷 Bluetooth durumunu sorgular
+KO0415 │ bt durumu               │ 🔷 Bluetooth durumunu sorgular
 
-Sık Karşılaşılan Sorunlar
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 6. WEB KOMUTLARI                                                                │
+├─────────────────────────────────────────────────────────────────────────────────┤
 
-1. GENEL BAKIŞ
-KUDUKO MUZİK YAPİM ASİSTAN AL, gelişmiş bir masaüstü yapay zeka asistanıdır. Windows 11 için optimize edilmiş olup, aşağıdaki temel yeteneklere sahiptir:
+KO0500 │ youtube music aç        │ 🎧 YouTube Music'i açar
+KO0501 │ yt music aç             │ 🎧 YouTube Music'i açar
+KO0502 │ youtube müzik aç        │ 🎧 YouTube Music'i açar
+KO0503 │ whatsapp web aç         │ 💬 WhatsApp Web'i açar
+KO0504 │ whatsapp aç             │ 💬 WhatsApp Web'i açar
 
-Özellik	Açıklama
-🎤 Sesli Komut	SpeechRecognition ile ses tanıma
-🔊 Sesli Yanıt	pyttsx3 ile metin okuma
-📷 Kamera Kontrolü	OpenCV ile fotoğraf çekimi
-🎵 Müzik Kontrolü	Windows medya tuşları entegrasyonu
-📡 Ağ Yönetimi	Wi-Fi ve Bluetooth kontrolü
-💾 Hafıza Sistemi	JSON tabanlı öğrenme ve kayıt
-🎭 Çoklu Profil	5 farklı kişilik profili
-                                                                                                                                                                 2. KURULUM VE GEREKSİNİMLER
-📦 Gerekli Kütüphaneler                                                                                                                                        # Temel kütüphaneler
-                                                                                                                                                                pip install tkinter  # (Python ile gelir)
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 7. ASİSTAN PROFİL KOMUTLARI                                                      │
+├─────────────────────────────────────────────────────────────────────────────────┤
 
-# Sesli komut için
-pip install SpeechRecognition
+KO0600 │ profil değiştir         │ 🎭 Asistan profilini değiştirir
+KO0601 │ klasik profil            │ 🎩 Klasik (resmi) profil
+KO0602 │ arkadaşça profil         │ 😊 Arkadaşça (samimi) profil
+KO0603 │ alaycı profil            │ 😏 Alaycı profil
+KO0604 │ profesyonel profil       │ 💼 Profesyonel (iş) profili
+KO0605 │ sakin olmak profil       │ 🎮 Rahat profil
 
-# Sesli yanıt için
-pip install pyttsx3
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 8. ÖZEL KOMUTLAR                                                                │
+├─────────────────────────────────────────────────────────────────────────────────┤
 
-# Kamera için
-pip install opencv-python pillow
+KO0700 │ zırh                    │ 🛡️ Zırh durumu sorgular
+KO0701 │ zırh durumu             │ 🛡️ Zırh durumu sorgular
+KO0702 │ zirh                    │ 🛡️ Zırh durumu sorgular
+KO0703 │ bilim                   │ 🔬 Bilim modülünü aktifleştirir
+KO0704 │ hesapla                 │ 🧮 Hesaplama modülünü aktifleştirir
+KO0705 │ kuantum                 │ ⚛️ Kuantum hesaplama modülü
+KO0706 │ güvenlik                │ 🔒 Güvenlik taraması başlatır
+KO0707 │ tehdit                  │ 🔒 Tehdit taraması başlatır
+KO0708 │ tarama                  │ 🔒 Sistem taraması başlatır
+KO0709 │ taktik                  │ 🎯 Taktik analiz modülü
 
-# Pencere kontrolü için
-pip install pygetwindow
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 9. WHATSAPP KOMUTLARI                                                            │
+├─────────────────────────────────────────────────────────────────────────────────┤
 
-# Otomasyon için
-pip install pyautogui
+KO0800 │ whatsapp ekle Ahmet 5551234567 │ ➕ WhatsApp'a kişi ekler
+└─────────────────────────────────────────────────────────────────────────────────┘
 
-# Sistem bilgileri için
-pip install psutil                                                                                                                                                                                                                                                                                                                🔧 Sistem Gereksinimleri
-Bileşen	Minimum	Önerilen
-İşletim Sistemi	Windows 10	Windows 11
-Python	3.8+	3.11+
-RAM	2 GB	4 GB+
-Kamera	720p	1080p+                                                                                                                                                                                                                                                                                                               3. ANA ÖZELLİKLER
-🎨 Tema ve Renk Sistemi                                                                                                                                                                                                                                                                                                       BG_DARK = "#0a0e1a"      # Ana arkaplan
-BG_CARD = "#0d1525"      # Kart arkaplanı
-ACCENT = "#00cfff"       # Neon mavi vurgu
-GREEN = "#00ff88"        # Yeşil durum
-WARN = "#ff4466"         # Kırmızı uyarı                                                                                                                                                                                                                                                                                            🧠 Asistan Beyni (AssistantBrain)
-Asistanın yanıt üretme mantığı:                                                                                                                                                                                                                                                                                                    def respond(self, text):
-    t = text.lower()
-    
-    # Saat sorgusu
-    if any(x in t for x in ["saat", "zaman"]):
-        return f"🕐 Saat {datetime.datetime.now().strftime('%H:%M:%S')}.", "NLP"
-    
-    # Fotoğraf çekme
-    if any(x in t for x in ["fotoğraf çek", "resim çek"]):
-        success, msg, path = self.camera.take_photo()
-        return f"✅ {msg}", "KAMERA"
-    
-    # ... diğer komutlar                                                                                                                                                                                                                                                                                                             4. KAMERA KONTROL SİSTEMİ
-📷 CameraController Sınıfı
-Bu sınıf, Windows'ta kamera kontrolünü sağlar:
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 10. MENÜ KOMUTLARI (Menü Butonu ile Erişilir)                                    │
+├─────────────────────────────────────────────────────────────────────────────────┤
 
-Metod	Açıklama	Dönüş Değeri
-start_preview()	Kamera önizlemesini başlatır	(bool, str)
-take_photo()	Hızlı fotoğraf çeker	(bool, str, str)
-take_photo_with_preview()	Geri sayımlı fotoğraf çeker	(bool, str, str)
-stop_preview()	Kamerayı kapatır	None
-get_photos_list()	Çekilen fotoğrafları listeler	list[str]                                                                                                                                                                                                                                                                        📸 Fotoğraf Kayıt Yolu                                                                                                                                                                                                                                                                                                 self.photos_dir = Path.home() / "Pictures" / "KUDUKO_MUZIK_YAPIM_ASISTAN_AL_Photos"
-# Örnek: C:\Users\Kullanıcı\Pictures\KUDUKO_MUZIK_YAPIM_ASISTAN_AL_Photos\                                                                                                                                                                                                                                                        🖼️ PhotoGalleryWindow Sınıfı
-Fotoğraf galerisi penceresi özellikleri:
+│ 🎤 Sesli Komut           │ Sesli komut penceresini açar                         │
+│ 🗑️ Sohbeti Temizle       │ Tüm sohbet geçmişini siler                           │
+│ 📋 Kopyala               │ Sohbeti panoya kopyalar                              │
+│ 💾 Kaydet                │ Sohbeti dosyaya kaydeder                             │
+│ 🎨 Tema Değiştir         │ Uygulama temasını değiştirir                         │
+│ 🔊 Ses Ayarları          │ TTS ses hızını ayarlar                               │
+│ 📊 Sistem Bilgileri      │ Sistem bilgilerini gösterir                          │
+│ 🔄 Yenile                │ Sistem bilgilerini yeniler                           │
+│ ℹ️ Hakkında              │ Uygulama hakkında bilgi gösterir                     │
+│ 🚪 Çıkış                 │ Uygulamadan çıkar                                    │
+└─────────────────────────────────────────────────────────────────────────────────┘
 
-✅ Önceki/Sonraki gezinti
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 11. KAMERA MENÜ KOMUTLARI (Menü Butonu ile Erişilir)                             │
+├─────────────────────────────────────────────────────────────────────────────────┤
 
-✅ Klasörü Aç butonu
+│ 📷 KAMERA AÇ (ÖNİZLEME)    │ Kamera önizlemesini başlatır                        │
+│ 📸 FOTOĞRAF ÇEK (HIZLI)    │ Hızlı fotoğraf çeker                               │
+│ ⏱️ FOTOĞRAF ÇEK (GERİ SAYIM)│ 3 saniye geri sayımlı fotoğraf çeker               │
+│ 🔴 KAMERAYI KAPAT          │ Kamerayı kapatır                                    │
+│ 📱 WİNDOWS KAMERA UYGULAMASI│ Windows Kamera uygulamasını açar                   │
+│ 🖼️ FOTOĞRAF GALERİSİ       │ Fotoğraf galerisini açar                           │
+│ ℹ️ KAMERA BİLGİSİ          │ Kamera durum bilgilerini gösterir                  │
+└─────────────────────────────────────────────────────────────────────────────────┘
 
-✅ Yenileme desteği
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 12. MÜZİK KONTROL MENÜ KOMUTLARI (Menü Butonu ile Erişilir)                      │
+├─────────────────────────────────────────────────────────────────────────────────┤
 
-✅ PIL ile görüntü önizleme
+│ ▶️ Başlat                │ Müzik çalmaya başlar                                  │
+│ ⏸️ Duraklat              │ Müziği duraklatır                                     │
+│ ⏹️ Durdur                │ Müziği durdurur                                       │
+│ ⏭️ Sonraki               │ Sonraki şarkıya geçer                                 │
+│ ⏮️ Önceki                │ Önceki şarkıya döner                                  │
+│ 🔄 Baştan                │ Şarkıyı baştan oynatır                                │
+│ 🔉 Ses Kıs               │ Ses seviyesini azaltır                                │
+│ 🔊 Ses Aç                │ Ses seviyesini artırır                                │
+└─────────────────────────────────────────────────────────────────────────────────┘
 
-5. MENÜ SİSTEMİ
-☰ MenuPopup Sınıfı
-Menü penceresi şu bölümleri içerir:                                                                                                                                ┌─────────────────────────────────────┐
-│ ☰ MENÜ                          ✕   │
-├─────────────────────────────────────┤
-│ ⚡ HIZLI İŞLEMLER                    │
-│   🎤 Sesli Komut                     │
-│   🗑️ Sohbeti Temizle                 │
-│   📋 Kopyala                         │
-│   💾 Kaydet                          │
-├─────────────────────────────────────┤
-│ 📷 KAMERA & MEDYA KONTROL            │
-│   📷 KAMERA AÇ (ÖNİZLEME)            │
-│   📸 FOTOĞRAF ÇEK (HIZLI)            │
-│   ⏱️ FOTOĞRAF ÇEK (GERİ SAYIM)       │
-│   🔴 KAMERAYI KAPAT                   │
-│   📱 WİNDOWS KAMERA UYGULAMASI       │
-│   🖼️ FOTOĞRAF GALERİSİ               │
-├─────────────────────────────────────┤
-│ 🎵 MÜZİK KONTROL                     │
-│   ▶️ Başlat  ⏸️ Duraklat              │
-│   ⏹️ Durdur   ⏭️ Sonraki              │
-├─────────────────────────────────────┤
-│ 🤖 ASİSTAN PROFİLİ                   │
-│   [KLASİK] [ARKADAŞÇA] [ALAYCI]     │
-│   [PROFESYONEL] [SAKİN OLMAK]        │
-└─────────────────────────────────────┘                                                                                                                            6. ASİSTAN PROFİLLERİ
-🎭 AssistantProfile Sınıfı
-5 farklı asistan kişiliği:
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                    KULLANIM İPUÇLARI                               ║
+╠═══════════════════════════════════════════════════════════════════════════════════╣
+║                                                                                   ║
+║  📌 KAMERA KULLANIMI:                                                             ║
+║     1. Önce "kamera aç" komutunu verin                                            ║
+║     2. Ardından "fotoğraf çek" komutunu kullanın                                  ║
+║     3. Fotoğraflarınızı "galeri" komutuyla veya menüden görüntüleyin              ║
+║                                                                                   ║
+║  📌 UYGULAMA AÇMA:                                                                ║
+║     • "tüm uygulamalar" yazarak tüm uygulamaları listeleyin                       ║
+║     • Çift tıklayarak veya seçip "AÇ" butonuna basarak uygulama başlatın          ║
+║     • Direkt olarak "spotify aç" gibi komutlar da kullanabilirsiniz               ║
+║                                                                                   ║
+║  📌 ASİSTAN PROFİLLERİ:                                                           ║
+║     • 5 farklı kişilik profili arasından seçim yapabilirsiniz                     ║
+║     • Profil değişiklikleri otomatik kaydedilir                                   ║
+║     • Her profilin kendine özgü yanıt tarzı ve ses hızı vardır                   ║
+║                                                                                   ║
+║  📌 KISA YOLLAR:                                                                  ║
+║     • ENTER tuşu: Mesaj gönder                                                    ║
+║     • ESC tuşu: Menüyü kapat (menü açıkken)                                       ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
 
-Profil	Emoji	Stil	Ses Hızı	Örnek Yanıt
-KLASİK	🎩	resmi	160	"Hazırım, efendim."
-ARKADAŞÇA	😊	samimi	170	"Hey! Bugün sana nasıl yardımcı olabilirim? ✨"
-ALAYCI	😏	alaycı	155	"Yine mi? Pekala, ne istiyorsun? 😄"
-PROFESYONEL	💼	iş	150	"Sistemler hazır. Emirlerinizi bekliyorum."
-SAKİN OLMAK	🎮	rahat	175	"N'aber? Hazırım, buyur! 🚀"                                                                                                                                                                                                                                                                            💾 Profil Kaydı                                                                                                                                                    # assistant_profile.json
-{
-    "profile": "ARKADAŞÇA"
-}                                                                                                                                                                                                                                                                                                                                 7. MEDYA KONTROLÜ
-🎵 MediaController Sınıfı
-Windows medya tuşlarını kullanır:
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                  SİSTEM GEREKSİNİMLERİ                             ║
+╠═══════════════════════════════════════════════════════════════════════════════════╣
+║                                                                                   ║
+║  🐍 Python Kütüphaneleri:                                                         ║
+║     pip install SpeechRecognition  # Sesli komut için                             ║
+║     pip install pyttsx3            # Sesli yanıt için                             ║
+║     pip install opencv-python      # Kamera için                                  ║
+║     pip install pillow             # Görüntü işleme için                          ║
+║     pip install psutil             # Sistem bilgileri için                        ║
+║     pip install pygetwindow        # Pencere kontrolü için                        ║
+║     pip install pyautogui          # Otomasyon için                               ║
+║                                                                                   ║
+║  💻 İşletim Sistemi: Windows 10 veya üzeri (Önerilen: Windows 11)                 ║
+║  📷 Kamera: Fotoğraf çekimi için (Opsiyonel)                                      ║
+║  🎤 Mikrofon: Sesli komutlar için (Opsiyonel)                                     ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
 
-Metod	Sanal Tuş Kodu	Açıklama
-play_pause()	0xB3	Oynat/Duraklat
-next_track()	0xB0	Sonraki şarkı
-previous_track()	0xB1	Önceki şarkı
-volume_up()	0xAF	Sesi artır
-volume_down()	0xAE	Sesi azalt
-Kullanım Örneği:                                                                                                                                                #                                                                                                                                                                   ctypes ile sanal tuş gönderme
-ctypes.windll.user32.keybd_event(0xB3, 0, 0, 0)  # Tuşa bas
-ctypes.windll.user32.keybd_event(0xB3, 0, 2, 0)  # Tuşu bırak                                                                                                                                                                                                                                                                        8. AĞ KONTROLÜ
-🌐 NetworkController Sınıfı
-Metod	Platform	Açıklama
-wifi_on/off()	netsh	Wi-Fi bağlantısını kontrol eder
-bluetooth_on/off()	PowerShell	Bluetooth adaptörünü kontrol eder
-get_wifi_status()	netsh	Wi-Fi durumunu sorgular
-get_bluetooth_status()	PowerShell	Bluetooth durumunu sorgular
-PowerShell Komut Örneği:                                                                                                                                        #                                                                                                                                                             Bluetooth kapatma
-$adapter = Get-PnpDevice -Class Bluetooth
-Disable-PnpDevice -InstanceId $adapter.InstanceId -Confirm:$false                                                                                                                                                                                                                                                                 9. WINDOWS ENTEGRASYONU
-🪟 WindowsController Sınıfı
-Metod	Açıklama
-list_all_installed_apps()	Tüm yüklü uygulamaları listeler
-open_app_smart(app_name)	Akıllı uygulama başlatma
-music_control(command)	Müzik kontrol komutlarını yönlendirir
-Uygulama Bulma Yöntemleri:
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                  SIK KARŞILAŞILAN SORUNLAR                         ║
+╠═══════════════════════════════════════════════════════════════════════════════════╣
+║                                                                                   ║
+║  ❌ "Kamera bulunamadı"                                                           ║
+║     → pip install opencv-python                                                   ║
+║     → Kameranın bağlı olduğundan emin olun                                        ║
+║                                                                                   ║
+║  ❌ "TTS yüklü değil"                                                             ║
+║     → pip install pyttsx3                                                         ║
+║                                                                                   ║
+║  ❌ "Wi-Fi kapatılamadı"                                                          ║
+║     → Uygulamayı yönetici olarak çalıştırın                                       ║
+║                                                                                   ║
+║  ❌ "Fotoğraf kaydedilemedi"                                                      ║
+║     → Pictures klasörüne yazma izniniz olduğundan emin olun                       ║
+║     → Önce "kamera aç" komutunu verdiğinizden emin olun                           ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
 
-Başlat Menüsü (.lnk ve .exe dosyaları)
-
-Windows Registry (Uninstall anahtarları)
-
-Program Files klasörleri
-
-Masaüstü kısayolları
-
-Hızlı Eşleme Örnekleri:                                                                                                                                                                                                                                                                                                     quick_map = {
-    "notepad": "notepad.exe",
-    "hesap makinesi": "calc.exe",
-    "chrome": "chrome.exe",
-    "spotify": "Spotify.exe"
-}                                                                                                                                                                                                                                                                                                                                 10. SİSTEM BİLEŞENLERİ
-📊 Sistem İstatistikleri                                                                                                                                                                                                                                                                                                             # CPU ve RAM izleme (psutil ile)
-cpu = psutil.cpu_percent(interval=0.3)
-ram = psutil.virtual_memory()
-disk = psutil.disk_usage('/')                                                                                                                                                                                                                                                                                                     💾 Hafıza Sistemi (Memory Sınıfı)
-Özellik	Açıklama
-history	Son 200 konuşma kaydı
-learned	Öğrenilen bilgiler (anahtar-değer)
-call_count	Toplam kullanıcı etkileşimi sayısı
-JSON Kayıt Formatı:                                                                                                                                                                                                                                                                                                                    {
-    "history": [["user", "merhaba", "2026-01-15 10:30:00"]],
-    "learned": {"python nedir": "Bir programlama dilidir"},
-    "calls": 42
-}                                                                                                                                                                                                                                                                                                                                    🎨 Animasyon Sistemi
-4 farklı animasyon katmanı:
-
-Döner halka - Sistem durumu göstergesi
-
-Dönen kareler - Renkli işlem göstergeleri
-
-Yörüngedeki noktalar - Arka plan aktivitesi
-
-Nabız efekti - Aktif dinleme durumu
-
-11. SESLİ KOMUTLAR
-🎤 Desteklenen Komutlar
-Kategori	Komut Örnekleri
-Sistem	"saat kaç", "tarih", "nasılsın"
-Kamera	"kamera aç", "fotoğraf çek", "galeri"
-Müzik	"müzik başlat", "sonraki şarkı", "ses aç"
-Ağ	"wifi aç", "bluetooth kapat"
-Uygulama	"spotify aç", "notepad aç"
-Asistan	"tüm uygulamalar", "profil değiştir"                                                                                                                                                                                                                                                                                         🔄 Komut İşleme Akışı Kullanıcı Girişi
-       ↓
-AssistantBrain.respond()
-       ↓
-Kelime Eşleme (any() + in)
-       ↓
-İlgili Metodu Çağır
-       ↓
-Yanıt ve Modül Etiketi
-       ↓
-Profil Modifikasyonu
-       ↓
-Arayüzde Göster + Sesli Yanıt                                                                                                                                                                                                                                                                                                    12. SIK KARŞILAŞILAN SORUNLAR
-❌ Hata ve Çözümleri
-Hata	Olası Nedeni	Çözüm
-"Kamera bulunamadı"	OpenCV eksik	pip install opencv-python
-"TTS yüklü değil"	pyttsx3 eksik	pip install pyttsx3
-"Wi-Fi kapatılamadı"	Yönetici yetkisi	Yönetici olarak çalıştırın
-"Fotoğraf kaydedilemedi"	Dizin izni	Pictures klasörünü kontrol edin
-📝 Önemli Notlar
-Kamera kullanımı: Önce "kamera aç" komutu vermelisiniz
-
-Bluetooth kontrolü: PowerShell gerektirir
-
-Medya tuşları: Sadece Windows'ta çalışır
-
-Profil değişikliği: Otomatik kaydedilir
-
-📞 İLETİŞİM
-Geliştirici: KUDUKO MUZİK YAPİM
-Web: https://kudukomuzikyapimasistanal.42web.io
-GitHub: https://github.com/kudukomuzikyapim1
-Sürüm: 2.0
-Telif: © 2026
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║              KUDUKO MUZİK YAPİM ASİSTAN AL v2.0 | © 2026                          ║
+║                     https://kudukomuzikyapimasistanal.42web.io                    ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
