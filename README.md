@@ -1,164 +1,202 @@
 <img width="608" height="607" alt="Ekran görüntüsü 2025-12-01 143817" src="https://github.com/user-attachments/assets/bab9476a-7bd1-4de7-ad36-ce70e2c869fa" />
-🎵 KUDUKO MUZİK YAPİM ASİSTAN AL v2.0
+# 🎵 KUDUKO MUZİK YAPİM ASİSTAN AL v2.0
+
 <div align="center">
-https://img.shields.io/badge/s%C3%BCr%C3%BCm-2.0-blue
-https://img.shields.io/badge/python-3.8%252B-green
-https://img.shields.io/badge/platform-Windows%252011-0078d4
-https://img.shields.io/badge/license-MIT-yellow
 
-Gelişmiş Yapay Zeka Asistanı | Sesli Komut | Kamera Kontrolü | Medya Yönetimi
+![Version](https://img.shields.io/badge/sürüm-2.0-blue)
+![Python](https://img.shields.io/badge/python-3.8%2B-green)
+![Platform](https://img.shields.io/badge/platform-Windows%2011-0078d4)
+![License](https://img.shields.io/badge/license-MIT-yellow)
 
-https://img.shields.io/badge/GitHub-kudukomuzikyapim1-181717?style=for-the-badge&logo=github
-https://img.shields.io/badge/Web-Asistan%2520Al-4285F4?style=for-the-badge&logo=googlechrome
+**Gelişmiş Yapay Zeka Asistanı | Sesli Komut | Kamera Kontrolü | Medya Yönetimi**
+
+[![GitHub](https://img.shields.io/badge/GitHub-kudukomuzikyapim1-181717?style=for-the-badge&logo=github)](https://github.com/kudukomuzikyapim1)
+[![Web](https://img.shields.io/badge/Web-Asistan%20Al-4285F4?style=for-the-badge&logo=googlechrome)](https://kudukomuzikyapimasistanal.42web.io)
 
 </div>
-📋 İçindekiler
-✨ Özellikler
 
-🚀 Hızlı Başlangıç
+---
 
-📦 Kurulum
+## 📋 İçindekiler
 
-🎮 Kullanım
+- [✨ Özellikler](#-özellikler)
+- [🚀 Hızlı Başlangıç](#-hızlı-başlangıç)
+- [📦 Kurulum](#-kurulum)
+- [🎮 Kullanım](#-kullanım)
+- [🎭 Asistan Profilleri](#-asistan-profilleri)
+- [📷 Kamera Sistemi](#-kamera-sistemi)
+- [🎵 Medya Kontrolü](#-medya-kontrolü)
+- [🌐 Ağ Kontrolü](#-ağ-kontrolü)
+- [💾 Hafıza Sistemi](#-hafıza-sistemi)
+- [⌨️ Komut Listesi](#️-komut-listesi)
+- [🔧 Sorun Giderme](#-sorun-giderme)
+- [📁 Dosya Yapısı](#-dosya-yapısı)
+- [🤝 Katkıda Bulunma](#-katkıda-bulunma)
+- [📞 İletişim](#-iletişim)
 
-🎭 Asistan Profilleri
+---
 
-📷 Kamera Sistemi
+## ✨ Özellikler
 
-🎵 Medya Kontrolü
+| Özellik | Açıklama | Durum |
+|---------|----------|-------|
+| 🎤 Sesli Komut | SpeechRecognition ile ses tanıma | ✅ |
+| 🔊 Sesli Yanıt | pyttsx3 ile metin okuma | ✅ |
+| 📷 Kamera | OpenCV ile fotoğraf | ✅ |
+| 🎵 Müzik Kontrol | Medya tuşları | ✅ |
+| 📡 Ağ Yönetimi | Wi-Fi / Bluetooth | ✅ |
+| 💾 Hafıza | JSON kayıt sistemi | ✅ |
+| 🎭 Profil | 5 farklı karakter | ✅ |
 
-🌐 Ağ Kontrolü
+---
 
-💾 Hafıza Sistemi
+## 🚀 Hızlı Başlangıç
 
-⌨️ Komut Listesi
-
-🔧 Sorun Giderme
-
-📁 Dosya Yapısı
-
-🤝 Katkıda Bulunma
-
-📞 İletişim
-
-✨ Özellikler
-Özellik	Açıklama	Durum
-🎤 Sesli Komut	SpeechRecognition ile ses tanıma	✅
-🔊 Sesli Yanıt	pyttsx3 ile metin okuma	✅
-📷 Kamera	OpenCV ile fotoğraf	✅
-🎵 Müzik Kontrol	Medya tuşları	✅
-📡 Ağ Yönetimi	Wi-Fi / Bluetooth	✅
-💾 Hafıza	JSON kayıt sistemi	✅
-🎭 Profil	5 farklı karakter	✅
-🚀 Hızlı Başlangıç
-bash
+```bash
 git clone https://github.com/kudukomuzikyapim1/kuduko-muzik-yapim-asistan-al.git
 cd kuduko-muzik-yapim-asistan-al
 pip install -r requirements.txt
-python assistant.py
-📦 Kurulum
-Gereksinimler:
-Python 3.8+
+python assistant.py                                                                                                                                                                                                                                                                                                                 # 🤖 Asistan Projesi
+## 📦 Kurulum
 
-Windows 10 / 11
+### Gereksinimler:
 
-Kurulum:
-bash
+* Python 3.8+
+* Windows 10 / 11
+
+### Kurulum:
+
+```bash
 pip install SpeechRecognition pyttsx3 opencv-python pillow psutil pygetwindow pyautogui
-🎮 Kullanım
-Temel Komutlar:
-merhaba
+```
 
-saat kaç
+---
 
-tarih
+## 🎮 Kullanım
 
-nasılsın
+### Temel Komutlar:
 
-güle güle
+* merhaba
+* saat kaç
+* tarih
+* nasılsın
+* güle güle
 
-🎭 Asistan Profilleri
-Profil	Stil
-🎩 Klasik	Resmi
-😊 Arkadaşça	Samimi
-😏 Alaycı	Eğlenceli
-💼 Profesyonel	İş
-🎮 Rahat	Casual
-📷 Kamera Komutları
-kamera aç
+---
 
-kamera kapat
+## 🎭 Asistan Profilleri
 
-fotoğraf çek
+| Profil         | Stil      |
+| -------------- | --------- |
+| 🎩 Klasik      | Resmi     |
+| 😊 Arkadaşça   | Samimi    |
+| 😏 Alaycı      | Eğlenceli |
+| 💼 Profesyonel | İş        |
+| 🎮 Rahat       | Casual    |
 
-galeri
+---
 
-🎵 Medya Komutları
-müzik başlat
+## 📷 Kamera Komutları
 
-müzik duraklat
+* kamera aç
+* kamera kapat
+* fotoğraf çek
+* galeri
 
-sonraki şarkı
+---
 
-ses aç
+## 🎵 Medya Komutları
 
-🌐 Ağ Komutları
-wifi aç
+* müzik başlat
+* müzik duraklat
+* sonraki şarkı
+* ses aç
 
-wifi kapat
+---
 
-bluetooth aç
+## 🌐 Ağ Komutları
 
-bluetooth kapat
+* wifi aç
+* wifi kapat
+* bluetooth aç
+* bluetooth kapat
 
-💾 Hafıza
+---
+
+## 💾 Hafıza
+
 Veriler aşağıdaki JSON dosyalarında tutulur:
 
-memory.json
+* `memory.json`
+* `assistant_profile.json`
+* `whatsapp_contacts.json`
 
-assistant_profile.json
+---
 
-whatsapp_contacts.json
+## ⌨️ Komut Listesi
 
-⌨️ Komut Listesi
 Detaylı komutlar için:
 
-text
+```
 komutlar.txt
+```
+
 dosyasına bakın.
 
-🔧 Sorun Giderme
-ModuleNotFoundError:
-bash
+---
+
+## 🔧 Sorun Giderme
+
+### ModuleNotFoundError:
+
+```bash
 pip install -r requirements.txt
-Kamera Hatası:
-bash
+```
+
+### Kamera Hatası:
+
+```bash
 pip install opencv-python
-📁 Dosya Yapısı
-text
+```
+
+---
+
+## 📁 Dosya Yapısı
+
+```
 kudukomuzikyapimasistanal.py
 Komutlar.txt
 README.md
 memory.json
-assistant_memory.json
-🤝 Katkıda Bulunma
-Fork yap
+assistant_memory.json                                                                                                                                             ```
 
-Branch oluştur
+---
 
-Commit at
+## 🤝 Katkıda Bulunma
 
-Pull Request gönder
+1. Fork yap
+2. Branch oluştur
+3. Commit at
+4. Pull Request gönder
 
-📞 İletişim
-GitHub: https://github.com/kudukomuzikyapim1
+---
 
-Web: https://kudukomuzikyapimasistanal.42web.io
+## 📞 İletişim
 
-📜 Lisans
+* GitHub: https://github.com/kudukomuzikyapim1
+* Web: https://kudukomuzikyapimasistanal.42web.io
+
+---
+
+## 📜 Lisans
+
 MIT License © 2026
 
+---
+
 <div align="center">
+
 ⭐ Destek olmak için projeye yıldız vermeyi unutma!
 
 </div>
+
