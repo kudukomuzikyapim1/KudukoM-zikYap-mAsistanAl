@@ -1,0 +1,13 @@
+{
+  "history": [
+    ["user", "Merhaba", "2026-05-03 14:30:25"],
+    ["assistant", "Merhaba! Size nasıl yardımcı olabilirim?", "2026-05-03 14:30:26"],
+    ["user", "Nasılsın?", "2026-05-03 14:30:30"],
+    ["assistant", "İyiyim, teşekkür ederim!", "2026-05-03 14:30:31"]
+  ],
+  "learned": {
+    "adım": "Kullanıcı",
+    "python": "Bir programlama dili"
+  },
+  "calls": 42
+}
