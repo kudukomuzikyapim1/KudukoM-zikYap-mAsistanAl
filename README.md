@@ -36,11 +36,9 @@ KUDUKO MUZİK YAPİM ASİSTAN AL, gelişmiş bir masaüstü yapay zeka asistanı
 📡 Ağ Yönetimi	Wi-Fi ve Bluetooth kontrolü
 💾 Hafıza Sistemi	JSON tabanlı öğrenme ve kayıt
 🎭 Çoklu Profil	5 farklı kişilik profili
-2. KURULUM VE GEREKSİNİMLER
-📦 Gerekli Kütüphaneler
-bash
-# Temel kütüphaneler
-pip install tkinter  # (Python ile gelir)
+                                                                                                                                                                 2. KURULUM VE GEREKSİNİMLER
+📦 Gerekli Kütüphaneler                                                                                                                                        # Temel kütüphaneler
+                                                                                                                                                                pip install tkinter  # (Python ile gelir)
 
 # Sesli komut için
 pip install SpeechRecognition
@@ -58,26 +56,18 @@ pip install pygetwindow
 pip install pyautogui
 
 # Sistem bilgileri için
-pip install psutil
-🔧 Sistem Gereksinimleri
+pip install psutil                                                                                                                                                                                                                                                                                                                🔧 Sistem Gereksinimleri
 Bileşen	Minimum	Önerilen
 İşletim Sistemi	Windows 10	Windows 11
 Python	3.8+	3.11+
 RAM	2 GB	4 GB+
-Kamera	720p	1080p+
-3. ANA ÖZELLİKLER
-🎨 Tema ve Renk Sistemi
-python
-BG_DARK = "#0a0e1a"      # Ana arkaplan
+Kamera	720p	1080p+                                                                                                                                                                                                                                                                                                               3. ANA ÖZELLİKLER
+🎨 Tema ve Renk Sistemi                                                                                                                                                                                                                                                                                                       BG_DARK = "#0a0e1a"      # Ana arkaplan
 BG_CARD = "#0d1525"      # Kart arkaplanı
 ACCENT = "#00cfff"       # Neon mavi vurgu
 GREEN = "#00ff88"        # Yeşil durum
-WARN = "#ff4466"         # Kırmızı uyarı
-🧠 Asistan Beyni (AssistantBrain)
-Asistanın yanıt üretme mantığı:
-
-python
-def respond(self, text):
+WARN = "#ff4466"         # Kırmızı uyarı                                                                                                                                                                                                                                                                                            🧠 Asistan Beyni (AssistantBrain)
+Asistanın yanıt üretme mantığı:                                                                                                                                                                                                                                                                                                    def respond(self, text):
     t = text.lower()
     
     # Saat sorgusu
@@ -89,8 +79,7 @@ def respond(self, text):
         success, msg, path = self.camera.take_photo()
         return f"✅ {msg}", "KAMERA"
     
-    # ... diğer komutlar
-4. KAMERA KONTROL SİSTEMİ
+    # ... diğer komutlar                                                                                                                                                                                                                                                                                                             4. KAMERA KONTROL SİSTEMİ
 📷 CameraController Sınıfı
 Bu sınıf, Windows'ta kamera kontrolünü sağlar:
 
@@ -99,12 +88,8 @@ start_preview()	Kamera önizlemesini başlatır	(bool, str)
 take_photo()	Hızlı fotoğraf çeker	(bool, str, str)
 take_photo_with_preview()	Geri sayımlı fotoğraf çeker	(bool, str, str)
 stop_preview()	Kamerayı kapatır	None
-get_photos_list()	Çekilen fotoğrafları listeler	list[str]
-📸 Fotoğraf Kayıt Yolu
-python
-self.photos_dir = Path.home() / "Pictures" / "KUDUKO_MUZIK_YAPIM_ASISTAN_AL_Photos"
-# Örnek: C:\Users\Kullanıcı\Pictures\KUDUKO_MUZIK_YAPIM_ASISTAN_AL_Photos\
-🖼️ PhotoGalleryWindow Sınıfı
+get_photos_list()	Çekilen fotoğrafları listeler	list[str]                                                                                                                                                                                                                                                                        📸 Fotoğraf Kayıt Yolu                                                                                                                                                                                                                                                                                                 self.photos_dir = Path.home() / "Pictures" / "KUDUKO_MUZIK_YAPIM_ASISTAN_AL_Photos"
+# Örnek: C:\Users\Kullanıcı\Pictures\KUDUKO_MUZIK_YAPIM_ASISTAN_AL_Photos\                                                                                                                                                                                                                                                        🖼️ PhotoGalleryWindow Sınıfı
 Fotoğraf galerisi penceresi özellikleri:
 
 ✅ Önceki/Sonraki gezinti
@@ -117,10 +102,7 @@ Fotoğraf galerisi penceresi özellikleri:
 
 5. MENÜ SİSTEMİ
 ☰ MenuPopup Sınıfı
-Menü penceresi şu bölümleri içerir:
-
-text
-┌─────────────────────────────────────┐
+Menü penceresi şu bölümleri içerir:                                                                                                                                ┌─────────────────────────────────────┐
 │ ☰ MENÜ                          ✕   │
 ├─────────────────────────────────────┤
 │ ⚡ HIZLI İŞLEMLER                    │
@@ -144,8 +126,7 @@ text
 │ 🤖 ASİSTAN PROFİLİ                   │
 │   [KLASİK] [ARKADAŞÇA] [ALAYCI]     │
 │   [PROFESYONEL] [SAKİN OLMAK]        │
-└─────────────────────────────────────┘
-6. ASİSTAN PROFİLLERİ
+└─────────────────────────────────────┘                                                                                                                            6. ASİSTAN PROFİLLERİ
 🎭 AssistantProfile Sınıfı
 5 farklı asistan kişiliği:
 
@@ -154,14 +135,10 @@ KLASİK	🎩	resmi	160	"Hazırım, efendim."
 ARKADAŞÇA	😊	samimi	170	"Hey! Bugün sana nasıl yardımcı olabilirim? ✨"
 ALAYCI	😏	alaycı	155	"Yine mi? Pekala, ne istiyorsun? 😄"
 PROFESYONEL	💼	iş	150	"Sistemler hazır. Emirlerinizi bekliyorum."
-SAKİN OLMAK	🎮	rahat	175	"N'aber? Hazırım, buyur! 🚀"
-💾 Profil Kaydı
-python
-# assistant_profile.json
+SAKİN OLMAK	🎮	rahat	175	"N'aber? Hazırım, buyur! 🚀"                                                                                                                                                                                                                                                                            💾 Profil Kaydı                                                                                                                                                    # assistant_profile.json
 {
     "profile": "ARKADAŞÇA"
-}
-7. MEDYA KONTROLÜ
+}                                                                                                                                                                                                                                                                                                                                 7. MEDYA KONTROLÜ
 🎵 MediaController Sınıfı
 Windows medya tuşlarını kullanır:
 
@@ -171,26 +148,18 @@ next_track()	0xB0	Sonraki şarkı
 previous_track()	0xB1	Önceki şarkı
 volume_up()	0xAF	Sesi artır
 volume_down()	0xAE	Sesi azalt
-Kullanım Örneği:
-
-python
-# ctypes ile sanal tuş gönderme
+Kullanım Örneği:                                                                                                                                                #                                                                                                                                                                   ctypes ile sanal tuş gönderme
 ctypes.windll.user32.keybd_event(0xB3, 0, 0, 0)  # Tuşa bas
-ctypes.windll.user32.keybd_event(0xB3, 0, 2, 0)  # Tuşu bırak
-8. AĞ KONTROLÜ
+ctypes.windll.user32.keybd_event(0xB3, 0, 2, 0)  # Tuşu bırak                                                                                                                                                                                                                                                                        8. AĞ KONTROLÜ
 🌐 NetworkController Sınıfı
 Metod	Platform	Açıklama
 wifi_on/off()	netsh	Wi-Fi bağlantısını kontrol eder
 bluetooth_on/off()	PowerShell	Bluetooth adaptörünü kontrol eder
 get_wifi_status()	netsh	Wi-Fi durumunu sorgular
 get_bluetooth_status()	PowerShell	Bluetooth durumunu sorgular
-PowerShell Komut Örneği:
-
-powershell
-# Bluetooth kapatma
+PowerShell Komut Örneği:                                                                                                                                        #                                                                                                                                                             Bluetooth kapatma
 $adapter = Get-PnpDevice -Class Bluetooth
-Disable-PnpDevice -InstanceId $adapter.InstanceId -Confirm:$false
-9. WINDOWS ENTEGRASYONU
+Disable-PnpDevice -InstanceId $adapter.InstanceId -Confirm:$false                                                                                                                                                                                                                                                                 9. WINDOWS ENTEGRASYONU
 🪟 WindowsController Sınıfı
 Metod	Açıklama
 list_all_installed_apps()	Tüm yüklü uygulamaları listeler
@@ -206,36 +175,25 @@ Program Files klasörleri
 
 Masaüstü kısayolları
 
-Hızlı Eşleme Örnekleri:
-
-python
-quick_map = {
+Hızlı Eşleme Örnekleri:                                                                                                                                                                                                                                                                                                     quick_map = {
     "notepad": "notepad.exe",
     "hesap makinesi": "calc.exe",
     "chrome": "chrome.exe",
     "spotify": "Spotify.exe"
-}
-10. SİSTEM BİLEŞENLERİ
-📊 Sistem İstatistikleri
-python
-# CPU ve RAM izleme (psutil ile)
+}                                                                                                                                                                                                                                                                                                                                 10. SİSTEM BİLEŞENLERİ
+📊 Sistem İstatistikleri                                                                                                                                                                                                                                                                                                             # CPU ve RAM izleme (psutil ile)
 cpu = psutil.cpu_percent(interval=0.3)
 ram = psutil.virtual_memory()
-disk = psutil.disk_usage('/')
-💾 Hafıza Sistemi (Memory Sınıfı)
+disk = psutil.disk_usage('/')                                                                                                                                                                                                                                                                                                     💾 Hafıza Sistemi (Memory Sınıfı)
 Özellik	Açıklama
 history	Son 200 konuşma kaydı
 learned	Öğrenilen bilgiler (anahtar-değer)
 call_count	Toplam kullanıcı etkileşimi sayısı
-JSON Kayıt Formatı:
-
-json
-{
+JSON Kayıt Formatı:                                                                                                                                                                                                                                                                                                                    {
     "history": [["user", "merhaba", "2026-01-15 10:30:00"]],
     "learned": {"python nedir": "Bir programlama dilidir"},
     "calls": 42
-}
-🎨 Animasyon Sistemi
+}                                                                                                                                                                                                                                                                                                                                    🎨 Animasyon Sistemi
 4 farklı animasyon katmanı:
 
 Döner halka - Sistem durumu göstergesi
@@ -254,10 +212,7 @@ Kamera	"kamera aç", "fotoğraf çek", "galeri"
 Müzik	"müzik başlat", "sonraki şarkı", "ses aç"
 Ağ	"wifi aç", "bluetooth kapat"
 Uygulama	"spotify aç", "notepad aç"
-Asistan	"tüm uygulamalar", "profil değiştir"
-🔄 Komut İşleme Akışı
-text
-Kullanıcı Girişi
+Asistan	"tüm uygulamalar", "profil değiştir"                                                                                                                                                                                                                                                                                         🔄 Komut İşleme Akışı Kullanıcı Girişi
        ↓
 AssistantBrain.respond()
        ↓
@@ -269,8 +224,7 @@ Yanıt ve Modül Etiketi
        ↓
 Profil Modifikasyonu
        ↓
-Arayüzde Göster + Sesli Yanıt
-12. SIK KARŞILAŞILAN SORUNLAR
+Arayüzde Göster + Sesli Yanıt                                                                                                                                                                                                                                                                                                    12. SIK KARŞILAŞILAN SORUNLAR
 ❌ Hata ve Çözümleri
 Hata	Olası Nedeni	Çözüm
 "Kamera bulunamadı"	OpenCV eksik	pip install opencv-python
