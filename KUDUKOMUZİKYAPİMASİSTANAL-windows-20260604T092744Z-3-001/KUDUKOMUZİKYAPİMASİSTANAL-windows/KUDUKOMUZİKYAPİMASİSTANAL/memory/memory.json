@@ -1,0 +1,45 @@
+{
+  "preferences": {
+    "user_info": {
+      "value": "KUDUKOMUZİKYAPİMASİSTANAL"
+    }
+  },
+  "identity": {
+    "name": {
+      "value": "KUDUKOMUZİKYAPİMASİSTANAL"
+    },
+    "birthday": {
+      "value": "June 5th"
+    },
+    "status": {
+      "value": "baby"
+    }
+  },
+  "whatsapp_contacts": {
+    "Annem": {
+      "value": "+905382986293",
+      "display_name": "Annem",
+      "aliases": []
+    },
+    "Abi": {
+      "value": "+905362972770",
+      "display_name": "Abi",
+      "aliases": [
+        "Abi"
+      ]
+    },
+    "Kaan_Kankam": {
+      "value": "+905454688107",
+      "display_name": "Kaan Kankam",
+      "aliases": [
+        "Kaan",
+        "Kankam"
+      ]
+    }
+  },
+  "notes": {
+    "father_status": {
+      "value": "father came home"
+    }
+  }
+}
